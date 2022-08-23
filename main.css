@@ -1,0 +1,114 @@
+
+/* --CSS do header-- */
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #734a91;
+    height: 80px;
+}
+.logo{
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+  
+}
+.site_nome{
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    margin-right: auto;
+
+}
+
+.menu{
+    margin-right: 30px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    color: #734a91;
+    border: white solid;
+    border-radius: 23px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.menu:hover{
+   transform: scale(1.1);
+   background-color: #f1d7ff;
+   border: #f1d7ff solid;
+}
+/* --FIM-- */
+
+/* --CSS cards com receitas-- */
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+.foto_receita{
+    height: 300px;
+    width: 400px;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.receitas{
+    padding-left: 37.5px;
+    padding-right: 37.5px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin: 50px 50px;
+    border-radius: 23px;
+    box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.receitas:hover{
+    transform: scale(1.1);
+    background-color: #f1d7ff;
+}
+.titulo_receita{
+    font-size: 30px;
+    color: #734a91;
+    border-bottom: solid #734a91;
+    padding: 10px;
+
+}
+.descricao{
+    padding-top: 5px;
+    font-size: 17px;
+    align-self: center;
+    color: #886b8e
+}
+/* --FIM-- */
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #734a91;
+    height: 160px;
+    color: #ffffff;
+}
+.titulo_footer{
+    font-size: 23px;
+    color: #ffffff;
+}
+.lista{
+    margin-left: auto;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.redes{
+    height: 50px;
+    width: 50px;
+    padding-right: 5px;
+    padding-right: 35px;
+    cursor: pointer;
+}
+.redes:hover{
+    transform: scale(1.1);
+}
